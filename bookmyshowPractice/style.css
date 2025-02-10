@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+}
+.first{
+    display: flex;
+    /* background-color: blueviolet; */
+    justify-content: space-around;
+    margin-right:9rem;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+}
+.logo-image{
+    width:10rem;
+    height:6rem;
+}
+.searchbox{
+    width:33rem;
+    height: 2.3rem;
+    font-size:18px;
+    margin-top:23px;
+    margin-left:20px;
+    margin-right:10px;
+    border: 2px rgb(232, 231, 231) solid;
+    
+}
+#location{
+    width:6rem;
+    height: 2.5rem;
+    margin-top:25px;
+    border:none;
+}
+button{
+    width:4rem;
+    height: 2.5rem;
+    margin-top:25px;
+    margin-left:25px;
+    background-color: red;
+}
+.signin{
+    font-size:16px;
+}
+/* ---------------------------------- */
+.second{
+    background-color: rgba(243, 241, 241, 0.677);
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height:3rem;
+}
+.left,.right{
+    display: flex;
+}
+.left{
+    /* background-color: blanchedalmond; */
+    justify-content: space-around;
+}
+.right{
+    /* background-color: chartreuse; */
+    justify-content: space-betweem;
+
+}
+.h2{
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:100;
+    margin-left:33px;
+}
+/* --------------------------------------------------------- */
+.marketing{
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------ */
+.running{
+    display:flex;
+    overflow-x:scroll;
+    /* background-color: aqua; */
+}
+
+h2{
+    /* background-color: blue; */
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-direction:row;
+    font-size:1.9rem;
+    padding-left:10px;
+}
+.card{
+    /* background-color: antiquewhite; */
+    width:210px;
+    padding:10px;
+    /* border: 5px rgb(195, 189, 189) solid; */
+    margin:1.2rem;
+    /* text-align:left; */
+    
+}
+.picture{
+    /* background-color: aqua; */
+    height:22rem;
+    width:14rem;
+    border-radius:15px;
+}
+.movie-Name{
+    /* background-color: blue; */
+    /* flex-wrap: wrap; */
+    /* margin:10px; */
+}
+.name{
+    font-size:1.6rem;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.genre-name{
+    padding: 5px;
+    font-size:1.3rem;
+    color:grey;
+}
+/* ------------------------------------ */
+.streamAd{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    /* height:1rem; */
+}
+
+/* --------------------------------- */
+@media (max-width:500px)
+{
+    .running{
+        /* display: flex; */
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }
+    .card{
+        margin: 1rem;
+    }
+}
